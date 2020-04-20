@@ -5,8 +5,8 @@
     "keywords": ["laravel", "bigbluebutton", "wrapper"],
     "authors": [
         {
-            "name": "Aleksejs Mehonosins",
-            "email": "barsmedia@gmail.com"
+            "name": "Paolo Bolla",
+            "email": "paolo@simonsoftware.it"
         }
     ],
     "require": {
