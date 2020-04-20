@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace barsmedia\Bigbluebutton\Contracts;
+namespace Simonsoftware\Bigbluebutton\Contracts;
 
 use BigBlueButton\Parameters\CreateMeetingParameters;
 use BigBlueButton\Parameters\EndMeetingParameters;
