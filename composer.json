@@ -1,5 +1,5 @@
 {
-    "name": "barsmedia/bigbluebutton",
+    "name": "simonsoftware/bigbluebutton",
     "description": "Bigbluebutton wrapper for laravel 7",
     "license": "MIT",
     "keywords": ["laravel", "bigbluebutton", "wrapper"],
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "barsmedia\\Bigbluebutton\\":"src/"
+            "simonsoftware\\Bigbluebutton\\":"src/"
         }
     },
     "extra": {
