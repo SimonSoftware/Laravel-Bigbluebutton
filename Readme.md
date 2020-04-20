@@ -15,11 +15,11 @@ composer require barsmedia/bigbluebutton
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
 ```
- barsmedia\Bigbluebutton\BigbluebuttonProviderService::class,
+ Simonsoftware\Bigbluebutton\BigbluebuttonProviderService::class,
 ```
 You can optionally use the facade for shorter code. Add this to your facades:
 ```
-'Meeting' => barsmedia\Bigbluebutton\BigbluebuttonMeeting::class,
+'Meeting' => Simonsoftware\Bigbluebutton\BigbluebuttonMeeting::class,
 ```
 
 ## Usage
@@ -45,7 +45,7 @@ namespace App\Http\Controllers;
 class MeetingController extends Controller
 {
     /**
-     * @var \barsmedia\Bigbluebutton\Contracts\Meeting
+     * @var Simonsoftware\Bigbluebutton\Contracts\Meeting
      */
     protected $meeting;
 
@@ -68,14 +68,14 @@ class MeetingController extends Controller
 ```
 **Create meeting**
 ```php
-use barsmedia\Bigbluebutton\Contracts\Meeting;
+use Simonsoftware\Bigbluebutton\Contracts\Meeting;
 use BigBlueButton\Parameters\CreateMeetingParameters;
 use Illuminate\Http\Request;
 
 class MeetingController extends Controller
 {
     /**
-     * @var \barsmedia\Bigbluebutton\Contracts\Meeting
+     * @var Simonsoftware\Bigbluebutton\Contracts\Meeting
      */
     protected $meeting;
 
@@ -104,7 +104,7 @@ class MeetingController extends Controller
 ```
 **Join a meeting**
 ```php
-use barsmedia\Bigbluebutton\Contracts\Meeting;
+use Simonsoftware\Bigbluebutton\Contracts\Meeting;
 use BigBlueButton\Parameters\JoinMeetingParameters;
 use Illuminate\Http\Request;
 
@@ -140,14 +140,14 @@ class MeetingController extends Controller
 **Close meeting**
 ```php
 
-use barsmedia\Bigbluebutton\Contracts\Meeting;
+use Simonsoftware\Bigbluebutton\Contracts\Meeting;
 use BigBlueButton\Parameters\EndMeetingParameters;
 use Illuminate\Http\Request;
 
 class MeetingController extends Controller
 {
     /**
-     * @var \barsmedia\Bigbluebutton\Contracts\Meeting
+     * @var Simonsoftware\Bigbluebutton\Contracts\Meeting
      */
     protected $meeting;
 
