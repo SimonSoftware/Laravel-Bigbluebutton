@@ -1,5 +1,5 @@
 <?php
-namespace barsmedia\Bigbluebutton;
+namespace Simonsoftware\Bigbluebutton;
 
 use Illuminate\Support\Facades\Facade;
 
